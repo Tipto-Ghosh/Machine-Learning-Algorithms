@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment (adjust name if needed)
+venv/
+.venv/
+env/
+.ENV/
+./mlalgo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (optional – comment out if needed)
+*.csv
+*.tsv
+*.data
+*.dat
+*.arff
+*.zip
+*.gz
+*.tar
+*.tar.gz
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.joblib
+*.pkl
+
+# Model outputs
+*.sav
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Logs and cache
+*.log
+*.tmp
+*.cache
+logs/
+wandb/
+
+# Environment variables / credentials
+.env
+*.env
+
+# VS Code and PyCharm settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Notebook metadata if not needed
+*.nbconvert.ipynb
